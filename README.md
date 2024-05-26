@@ -5,10 +5,15 @@
 - go 1.21
 
 ## Usage
-
-- create `localhost.pem` and `localhost-key.pem`
-
+- clone this repo
 ```
+git clone https://github.com/nazo/webtransport-go-chat.git
+```
+- Follow the installation instructions of [mkcert](https://github.com/FiloSottile/mkcert)
+- create `localhost.pem` and `localhost-key.pem`
+```
+cd webtransport-go-chat
+mkcert -install
 mkcert localhost
 ```
 
